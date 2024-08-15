@@ -33,6 +33,10 @@ p {
   margin-bottom: 30px;
 }
 
+.nav-link:hover {
+  color: var(--primary-accent);
+}
+
 .head-box {
   background-color: var(--background-color);
   padding-top: 25px;
@@ -63,6 +67,10 @@ p {
 
 .row {
   max-width: 840px;
+}
+
+.border-dark-subtle {
+  border-color: var(--primary-accent) !important;
 }
 
 @media (max-width: 767px) {
