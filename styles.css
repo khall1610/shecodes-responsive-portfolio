@@ -73,6 +73,12 @@ p {
   border-color: var(--primary-accent) !important;
 }
 
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (max-width: 767px) {
   h2,
   p,
