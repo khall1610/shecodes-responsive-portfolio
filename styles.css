@@ -41,6 +41,15 @@ p {
   margin-bottom: 30px;
 }
 
+.social-media {
+  display: block;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.social-media:hover {
+  color: var(--primary-accent);
+}
 .nav-link:hover {
   color: var(--primary-accent);
 }
