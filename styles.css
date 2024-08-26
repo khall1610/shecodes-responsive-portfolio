@@ -41,13 +41,18 @@ p {
   margin-bottom: 30px;
 }
 
-.social-media {
+.social-medias {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-link {
   display: block;
   text-align: center;
   color: var(--primary-color);
 }
 
-.social-media:hover {
+.social-media-link:hover {
   color: var(--primary-accent);
 }
 .nav-link:hover {
@@ -148,6 +153,11 @@ p {
     margin: auto;
     margin-top: 30px;
   }
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 @media (max-width: 996px) {
