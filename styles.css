@@ -74,6 +74,16 @@ p {
   color: var(--primary-accent);
   transition: ease-in-out all 0.2s;
   background-color: var(--background-color);
+  font-size: 16px;
+}
+
+.contact-box {
+  padding: 30px 120px;
+  border-radius: 10px;
+  background-color: rgb(231, 230, 230, 0.3);
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px 5px 0px 30px;
 }
 
 .about-me .primary-button {
@@ -87,6 +97,10 @@ p {
 .primary-button:hover {
   background-color: var(--primary-accent);
   color: var(--background-color);
+}
+
+.faded {
+  margin-bottom: 20px !important;
 }
 
 .button-box {
@@ -122,6 +136,17 @@ p {
   max-width: 350px;
 }
 
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Plus Jakarta Sans;
+}
+
+a:hover {
+  color: var(--primary-accent);
+}
+
 @media (max-width: 767px) {
   h2,
   p,
@@ -153,6 +178,16 @@ p {
     margin: auto;
     margin-top: 30px;
   }
+}
+
+i {
+  font-size: 35px;
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+i:hover {
+  color: var(--primary-accent);
 }
 
 footer .email-link {
