@@ -50,6 +50,7 @@ p {
   display: block;
   text-align: center;
   color: var(--primary-color);
+  font-size: 25px;
 }
 
 .social-media-link:hover {
